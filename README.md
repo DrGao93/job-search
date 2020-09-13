@@ -22,7 +22,8 @@ Combinations:
 `site:jobs.lever.co backend engineer -intitle:senior -intitle:sr`
 `site:jobvite.com fullstack engineer -intitle:senior -intitle:sr`
 `site:jobvite.com backend engineer -intitle:senior -intitle:sr`
-- Next, it will then perform a google search for the first combination
+- Next, it will perform a google search for the first combination
+> Warning: Google does tend to detect these automated searches and may show a captcha page before showing search results. If this happens, the script will pause execution until you clear the captcha. When the captcha is cleared, google proceed to perform the search you requested and the script continues execution as normal.
 - Next, it will extract all 10 links from the google search results page
 - Next, it will open one result from the 10 links and open it in a new tab for you
 - If this job application page is invalie (and the script can detect it), it will close the job page and mark it in the database as an unavailable job page.
